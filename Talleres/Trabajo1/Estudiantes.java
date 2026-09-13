@@ -1,7 +1,8 @@
 package Talleres.Trabajo1;
 
 public class Estudiantes {
-    public static void main(String[] args) {
-        System.out.println("hola");
-    }
+    private final int[] codigos = {500, 501, 502, 503, 504};
+    private  String[] estudiantes={"Juan", "Pedro", "Laura", "Alejandra", "Samuel"};
+    private  double [][] notas=new double[5][3];
+    
 }
