@@ -7,12 +7,12 @@ public class EstudiantesTest {
  
         System.out.println(estudiante);
  
-        estudiante.setName("Ana María Gómez"); // válido
-//        estudiante.setName("");                  inválido: vacío
+//        estudiante.setName("Ana María Gómez"); // válido
+        estudiante.setName("");                  //inválido: vacío
  
-        estudiante.setGrade2(4.5);   // válido
-//        estudiante.setGrade3(6.0);    inválido: fuera de rango
-//        estudiante.setGrade1(-1.0);   inválido: fuera de rango
+//        estudiante.setGrade2(4.5);   // válido
+        estudiante.setGrade3(6.0);    //inválido: fuera de rango
+        estudiante.setGrade1(-1.0);   //inválido: fuera de rango
  
         System.out.println(estudiante);
         System.out.printf("Promedio final: " + estudiante.average());
