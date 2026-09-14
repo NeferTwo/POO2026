@@ -48,7 +48,7 @@ public class BankAccount {
             return false;
         }
         balance += amount;
-        System.out.printf("Depósito exitoso de %.2f. Nuevo saldo: %.2f%n", amount, balance);
+        System.out.println("Depósito exitoso de: " + amount + " Nuevo saldo: " + balance);
         return true;
     }
 

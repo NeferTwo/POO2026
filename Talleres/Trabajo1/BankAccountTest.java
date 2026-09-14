@@ -7,12 +7,12 @@ public class BankAccountTest{
 
         System.out.println(cuenta);
 
-//        cuenta.deposit(500);       valido
-        cuenta.deposit(-50);       //invalido: monto <= 0
+        cuenta.deposit(500);      // valido
+//        cuenta.deposit(-50);       invalido: monto <= 0
 
-//      cuenta.withdraw(300);     // valido
-        cuenta.withdraw(0);        //invalido: monto <= 0
-        cuenta.withdraw(5000);     //invalido: saldo insuficiente
+      cuenta.withdraw(300);     // valido
+//        cuenta.withdraw(0);        invalido: monto <= 0
+//        cuenta.withdraw(5000);     invalido: saldo insuficiente
 
         System.out.println(cuenta);
     }
